@@ -15,6 +15,10 @@ public class sample1 {
 		int div = a / b;
 		System.out.println("div = "+div);
 	}
+	public static void mul(){
+		int mul = a * b;
+		System.out.println("mul = "+mul);
+	}
 
 
 
@@ -22,6 +26,7 @@ public class sample1 {
 		add();
 		sub();
 		div();
+		mul();
 	}
 	
 }
