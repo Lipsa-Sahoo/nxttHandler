@@ -11,12 +11,17 @@ public class sample1 {
 		int sub = a - b;
 		System.out.println("sub = "+sub);
 	}
+	public static void div(){
+		int div = a / b;
+		System.out.println("div = "+div);
+	}
 
 
 
 	public static void main(String[] args) {
 		add();
 		sub();
+		div();
 	}
 	
 }
